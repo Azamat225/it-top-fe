@@ -159,7 +159,14 @@ function counter(){
         return num;
     }
 }
+const res = counter();
 
-console.log(counter()(), 'counter');
+res();
+res();
+res();
 
-// for 
+console.log(res(), 'counter');
+
+
+// promise
+
